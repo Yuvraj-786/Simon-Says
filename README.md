@@ -5,5 +5,5 @@
 2. Watch the button sequence and click the buttons in the same order.
 3. Repeat the sequence as it gets longer each level.
 4. If you make a mistake, the game ends. Click **Start** to play again.
-
-Link : 
+5. 
+Link : https://yuvraj-786.github.io/Simon-Says/
