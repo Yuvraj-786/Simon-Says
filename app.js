@@ -54,8 +54,13 @@ function checkAns(idx) {
         }
     } else {
         h3.innerText = `Game Over! Click 'Start' to start the game.`;
+        
+
+        if (document.querySelector("h2") !== null){
+            return;
+        }
         let h2 = document.createElement("h2");
-        let score = h2.innerText=`Your Score is : ${level}`;
+        h2.innerText=`Your Score is : ${level}`;
         h3.insertAdjacentElement('afterend', h2);
         setTimeout(() => {
             document.body.removeChild(h2);
